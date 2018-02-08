@@ -20,13 +20,15 @@ public class Example {
     public Response example() {
         List<String> list = new ArrayList<>();
         //return a simple list of strings
-        list.add("Congratulations, your application is up and running");
-        list.add("Congratulations, your application is up and running");
-        list.add("Congratulations, your application is up and running");
-        list.add("Congratulations, your application is up and running");
-        list.add("Congratulations, your application is up and running");
-        list.add("Congratulations, your application is up and running");
-        list.add("Congratulations, your application is up and running");
+        list.add("<body><ul>");
+        list.add("<li>Congratulations, your application is up and running</li>");
+        list.add("<li>Congratulations, your application is up and running</li>");
+        list.add("<li>Congratulations, your application is up and running</li>");
+        list.add("<li>Congratulations, your application is up and running</li>");
+        list.add("<li>Congratulations, your application is up and running</li>");
+        list.add("<li>Congratulations, your application is up and running</li>");
+        list.add("<li>Congratulations, your application is up and running</li>");
+        list.add("</ul></body>");
         return Response.ok(list.toString()).build();
     }
 
