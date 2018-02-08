@@ -21,6 +21,12 @@ public class Example {
         List<String> list = new ArrayList<>();
         //return a simple list of strings
         list.add("Congratulations, your application is up and running");
+        list.add("Congratulations, your application is up and running");
+        list.add("Congratulations, your application is up and running");
+        list.add("Congratulations, your application is up and running");
+        list.add("Congratulations, your application is up and running");
+        list.add("Congratulations, your application is up and running");
+        list.add("Congratulations, your application is up and running");
         return Response.ok(list.toString()).build();
     }
 
